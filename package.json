@@ -10,9 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chrome-aws-lambda": "^10.1.0",
     "compression": "^1.7.4",
     "express": "^4.17.1",
     "handlebars": "^4.7.6",
+    "pdf-lib": "^1.16.0",
+    "puppeteer": "^10.2.0",
+    "puppeteer-core": "^10.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -26,6 +30,7 @@
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
+    "nodemon": "^2.0.12",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12"
   }

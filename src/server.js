@@ -4,7 +4,6 @@ import ssr from "./routes/ssr";
 const app = express();
 
 app.use(compression());
-app.use(express.static("public"));
 
 app.use("/firstssr", ssr);
 
